@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+  background: linear-gradient(to top left,#ffffffff,#ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+
+.signup-header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signup-header p {
+    font-size: 0.9rem;
+    color: #555;
+
+}
+
+/* We Added Margin Between Singn up Fonts And Lines */
+.signup-body {
+    margin: 20px 0;
+}
+
+.signup-body p {
+    margin: 10px 0;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+/* This is Our SignUp Body */
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px #cccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 4px;
+
+}
+
+/* Here We Added Style for Submit Button */
+#submit {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* This Action Perform on Submit button,The Button are automatically change our color */
+#submit:hover {
+    background-color: #052487;
+
+}
+/* For SignUp Footer  */
+.signup-footer p{
+    color: lightslategray;
+    text-align: center;
+}
+
+.signup-footer p a{
+    color: #2773a5;
+
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff33,#ffffffff);
+    position: absolute;
+
+}
+
+.c1{
+    top: 100px;
+    left: 40px;
+
+}
+
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
